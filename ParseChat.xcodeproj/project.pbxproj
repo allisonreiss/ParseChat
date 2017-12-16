@@ -17,6 +17,9 @@
 		FB33EC961FD330BF00C56C1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB33EC941FD330BF00C56C1E /* LaunchScreen.storyboard */; };
 		FB33ECA11FD330BF00C56C1E /* ParseChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB33ECA01FD330BF00C56C1E /* ParseChatTests.swift */; };
 		FB33ECAC1FD330C000C56C1E /* ParseChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB33ECAB1FD330C000C56C1E /* ParseChatUITests.swift */; };
+		FBD1C8CC1FE1E8ED004862AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1C8CB1FE1E8ED004862AF /* LoginViewController.swift */; };
+		FBD1C8CE1FE1F6B0004862AF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1C8CD1FE1F6B0004862AF /* ChatViewController.swift */; };
+		FBF821551FE473B500D6E4E6 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF821541FE473B500D6E4E6 /* ChatTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		FB33ECA71FD330C000C56C1E /* ParseChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB33ECAB1FD330C000C56C1E /* ParseChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseChatUITests.swift; sourceTree = "<group>"; };
 		FB33ECAD1FD330C000C56C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD1C8CB1FE1E8ED004862AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FBD1C8CD1FE1F6B0004862AF /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		FBF821541FE473B500D6E4E6 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,9 @@
 				FB33EC921FD330BF00C56C1E /* Assets.xcassets */,
 				FB33EC941FD330BF00C56C1E /* LaunchScreen.storyboard */,
 				FB33EC971FD330BF00C56C1E /* Info.plist */,
+				FBD1C8CB1FE1E8ED004862AF /* LoginViewController.swift */,
+				FBD1C8CD1FE1F6B0004862AF /* ChatViewController.swift */,
+				FBF821541FE473B500D6E4E6 /* ChatTableViewCell.swift */,
 			);
 			path = ParseChat;
 			sourceTree = "<group>";
@@ -460,7 +469,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD1C8CC1FE1E8ED004862AF /* LoginViewController.swift in Sources */,
 				FB33EC8E1FD330BF00C56C1E /* ViewController.swift in Sources */,
+				FBF821551FE473B500D6E4E6 /* ChatTableViewCell.swift in Sources */,
+				FBD1C8CE1FE1F6B0004862AF /* ChatViewController.swift in Sources */,
 				FB33EC8C1FD330BF00C56C1E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
