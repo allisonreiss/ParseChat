@@ -13,6 +13,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
 
     @IBOutlet weak var chatMessageField: UITextField!
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var sendButton: UIButton!
     
     var Messages: [PFObject] = []
     
@@ -68,15 +69,15 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         let message = Messages[indexPath.row]
         cell.messageLabel.text = message["text"] as! String!
- /*
-        if let user = Messages["user"] as? PFUser {
+ 
+        if let user = message["user"] as? PFUser {
             // User found! update username label with username
             cell.usernameLabel.text = user.username
         } else {
             // No user found, set default username
             cell.usernameLabel.text = "🤖"
         }
-*/
+
         return cell
     }
     

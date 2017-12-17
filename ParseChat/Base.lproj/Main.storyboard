@@ -141,7 +141,7 @@
                     <navigationItem key="navigationItem" title="Chat" id="FTD-69-Z5X"/>
                     <connections>
                         <outlet property="chatMessageField" destination="t7O-lp-J9h" id="zKK-mW-gVB"/>
-                        <outlet property="sendButton" destination="kvd-nR-uLL" id="oF4-Hf-2bI"/>
+                        <outlet property="sendButton" destination="kvd-nR-uLL" id="YwE-cb-aQx"/>
                         <outlet property="tableView" destination="Auf-16-n3A" id="gEO-81-D8O"/>
                     </connections>
                 </viewController>
