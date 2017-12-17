@@ -2,19 +2,19 @@
 
 **ParseChat** is a Chat app using an [open source Parse](http://parseplatform.org/) backend.
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [ ] User can sign up and sign in to the login screen (+1pt)
-- [ ] User sees alerts for login exceptions, i.e. "account already exists", "wrong credentials", etc. (+1pt)
-- [ ] User can compose and send chat messages (+2pt)
-- [ ] User can view a list of chat messages in chronological order (+2pt)
-- [ ] Automatically Adjust Cell Size to Fit Text (+1pt)
-- [ ] Username of chat author is displayed in each chat message (+2pt)
-- [ ] Persist Logged in User (+1pt)
+- [X] User can sign up and sign in to the login screen (+1pt)
+- [X] User sees alerts for login exceptions, i.e. "account already exists", "wrong credentials", etc. (+1pt)
+- [X] User can compose and send chat messages (+2pt)
+- [X] User can view a list of chat messages in chronological order (+2pt)
+- [X] Automatically Adjust Cell Size to Fit Text (+1pt)
+- [X] Username of chat author is displayed in each chat message (+2pt)
+- [X] Persist Logged in User (+1pt)
 
 The following **optional** user stories are implemented:
 
@@ -35,15 +35,13 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+The simulator wouldn't work for me to run the app and make the gif, but it worked one time before and the app was functioning. I don't know how to fix it. I keep getting the error: Could not attach to pid : “11737”. 
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+My login and sign up kept getting internal server errors and it took me forever to debug and I ended up having to set up my own new Parse server. I also kept getting the error:
+Could not attach to pid : “11011”. Ensure “ParseChat” is not already running, and allisonreiss has permission to debug it.
+This caused the simulator to not be able to run my application which was very frusterating and I tried cleaning, rebuilding, and restarting the simulator and still it wouldn't work and only randonmly worked a couple of times even though I didn't do anything different.
 
 ## License
 
